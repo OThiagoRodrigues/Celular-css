@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+    scrollbar-width: thin;
+    scrollbar-color: rgb(63, 63, 63) rgba(00, 00, 00, 0.1);
+}
+
+*::-webkit-scrollbar {
+    width: 12px;
+}
+  
+*::-webkit-scrollbar-thumb {
+    background-color: rgb(63, 63, 63);
+    border-radius: 20px;
+    border: 3px solid rgba(00, 00, 00, 0.1);
+}
+
+.container {
+    background-color: #075E54;
+    width: auto;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container__carcaca {
+    width: min-content;
+    height: min-content;
+    padding: 30px 6px 15px 6px;
+    background-image: linear-gradient(to right, #B86B77, #CF989F, #D8ABB1 );
+    border: 3px solid #B86B77;
+    border-radius: 20px;
+    box-shadow: 2em 3em 3em rgba(0, 0, 0, 0.7);
+}
+
+.container-auto-falante {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 6px;
+}
+
+.auto-falante {
+    width: 100px;
+    height: 7px;
+    background-color: rgb(117, 115, 115);
+    border-radius: 20%;
+    margin: 5px 2px;
+}
+
+.auto-falante-lado {
+    width: 7px;
+    height: 7px;
+    background-color: rgb(117, 115, 115);
+    border-radius: 50%;
+    margin: 5px 2px;
+}
+
+.container__carcaca__tela {
+    width: 360px;
+    height: 740px;
+    background-color: rgb(63, 63, 63);
+    border-radius: 10px;
+    display: grid;
+    grid-template-rows: 4% 10% 80% 6%;
+    position: relative;
+}
+
+.container-cabecalho {
+    display: flex;
+    background-color: rgb(63, 63, 63);
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px;
+    color: white;
+    border-radius: 10px 10px 0 0;
+}
+
+.container-icones {
+    display: flex;
+    align-items: center;
+}
+
+.cabecalho-icones {
+    width: 17px;
+    margin: 0 5px;
+}
+
+.cabecalho__esquerda h1 {
+    margin: 0 7px;
+    font-size: 15px;
+}
+
+.cabeca-whatsapp {
+    background-color: #075E54;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5px 5px 5px;
+}
+
+.cabeca-whatsapp__img {
+    width: 17px;
+}
+
+.cabeca-whatsapp__esquerda {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-left: 10px;
+    color: white;
+}
+
+.cabeca-whatsapp__esquerda__texto h2 {
+    font-size: 1em;
+}
+
+.cabeca-whatsapp__esquerda__texto p {
+    font-size: .7em;
+}
+
+.cabeca-whatsapp__selfie {
+    width: 40px;
+    border-radius: 50%;
+}
+
+.cabeca-whatsapp__direita {
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.whatsapp-conversa {
+    background-image: url(img/background.png);
+    background-color: #DDF7E3;
+    background-size: auto;
+    padding: 6px 6px 40px 6px ;
+    overflow-y: auto;
+}
+
+.conversa-texto, .conversa-texto-recebido {
+    background-color: #128C7E;
+}
+
+.conversa-enviado {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.conversa-texto {
+    padding: 1em;
+    color: white;
+    width: 60%;
+    display: grid;
+    gap: 0.5em;
+    grid-template-columns: 5fr 1.5fr 0.5fr;
+    word-break: break-all;
+    margin-bottom: 1em;
+    font-size: 12px;
+    border-radius: 15px;
+}
+
+.conversa-texto p, img {
+    align-self: flex-end;
+}
+
+.conversa-texto img {
+    width: 16px;
+}
+
+.conversa-texto-recebido {
+    padding: 1em;
+    color: white;
+    width: 50%;
+    display: grid;
+    gap: 0.5em;
+    grid-template-columns: 5fr 1.5fr;
+    word-break: break-all;
+    margin-bottom: 1em;
+    font-size: 12px;
+    border-radius: 15px;
+}
+
+.conversa-texto-recebido p {
+    align-self: flex-end;
+}
+
+.navegacao {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    padding-bottom: 10px;
+}
+
+.navegacao-img {
+    width: 25px;
+    height: 25px;   
+}
+
+.barra-de-texto {
+    position: absolute;
+    color: white;
+    width: 87%;
+    height: 2em;
+    top: 88%;
+    left: 5%;
+    background-position: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.barra-de-texto-div {
+    background-color: #27e9d2;
+    padding: 0.5em;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    gap: 10px;
+    margin-right: 10px;
+}
+
+.barra-de-texto-div img {
+    width: 18px;
+}
+
+.barra-de-texto-img {
+    width: 30px;
+}
+
+.input-texto {
+   background-color: none;
+}
+
