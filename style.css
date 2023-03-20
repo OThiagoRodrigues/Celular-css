@@ -28,8 +28,8 @@
     width: min-content;
     height: min-content;
     padding: 30px 6px 15px 6px;
-    background-image: linear-gradient(to right, #B86B77, #CF989F, #D8ABB1 );
-    border: 3px solid #B86B77;
+    background-image: linear-gradient(to right, #000000, #23282b, #22282c, #2c3236 );
+    border: 3px solid #000000;
     border-radius: 20px;
     box-shadow: 2em 3em 3em rgba(0, 0, 0, 0.7);
 }
