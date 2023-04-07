@@ -111,6 +111,10 @@
     color: white;
 }
 
+.cabeca-whatsapp__esquerda img {
+    align-self: center;
+}
+
 .cabeca-whatsapp__esquerda__texto h2 {
     font-size: 1em;
 }
